@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }))
 
 //Application routes
 
-app.use('api/v1/user/', userRoute)
+app.use('/api/v1/user', userRoute)
 
 //Testing
 app.get('/', async (req: Request, res: Response) => {
