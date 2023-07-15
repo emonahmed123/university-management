@@ -5,7 +5,7 @@ export const findLastUserId = async (): Promise<string | undefined> => {
       createdAt: -1,
     })
     .lean()
-  console.log(lastUser)
+
   return lastUser ? lastUser.id.toString() : undefined
 }
 
