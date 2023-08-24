@@ -7,13 +7,13 @@ const { combine, timestamp, label, printf, prettyPrint } = format
 // custom code formate
 
 const myFormat = printf(({ level, message, label, timestamp }) => {
-  const bigTime = new Date(timestamp)
+  const date = new Date(timestamp)
 
-  const hours = bigTime.getHours()
-  const minutes = bigTime.getMinutes()
-  const second = bigTime.getSeconds()
+  const hours = date.getHours()
+  const minutes = date.getMinutes()
+  const second = date.getSeconds()
 
-  return `${bigTime.toDateString()} ${hours}:${minutes} :${second} }[${label}] ${level}: ${message}`
+  return `${date.toDateString()} ${hours}:${minutes} :${second} }[${label}] ${level}: ${message}`
 })
 
 const logger = createLogger({

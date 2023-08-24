@@ -6,14 +6,19 @@
     "auditLog": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\sucesses\\.6fe0dd55e99423789f4ddabeea96285612a8dd20-audit.json",
     "files": [
         {
-            "date": 1689355980275,
-            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\sucesses\\esu-2023-07-14-23-sucess.log",
-            "hash": "91eecd284bd40a8316350d6a800085d0256311c49aa5e19a69a6f1c3043ac40e"
+            "date": 1692759199042,
+            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\sucesses\\esu-2023-08-23-08-sucess.log",
+            "hash": "d6ed325ea6e8f79dd2dccbd08c52e5f29ecd363ea5151afd1a01e3bca659f27a"
         },
         {
-            "date": 1689357607662,
-            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\sucesses\\esu-2023-07-15-00-sucess.log",
-            "hash": "1591618d80ed9e7f5c88c72ee886a953fe007bfcf96affcf7d1fe582df0c5ccf"
+            "date": 1692760179161,
+            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\sucesses\\esu-2023-08-23-09-sucess.log",
+            "hash": "8c674d8add7234ce215f936efaeec048159b83847830e59b6b57e81e1a055e77"
+        },
+        {
+            "date": 1692890788198,
+            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\sucesses\\esu-2023-08-24-21-sucess.log",
+            "hash": "94b46db9ee92a98d5528ee70ee908dfc0e85ddb87b052f2292659b3e15ad80bd"
         }
     ],
     "hashType": "sha256"
