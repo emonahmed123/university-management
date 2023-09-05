@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable no-unused-expressions */
 import { ErrorRequestHandler } from 'express'
 import config from '../config'
 
@@ -6,12 +8,16 @@ import handleValidationError from '../error/handleValidationError'
 // import { error } from 'winston'
 import ApiError from '../error/ApiError'
 import { Error } from 'mongoose'
+import { errorlogger } from '../shared/logger'
 const globalErrorHander: ErrorRequestHandler = (error, req, res, next) => {
   // res.status(400).json({
   //   err: err,
   // })
 
-  // eslint-disable-next-line prefer-const
+  config.env === 'development'
+    ? console.log('gobleErrorhandler', error)
+    : errorlogger.error('gobleErrorhandeler', error)
+
   let statusCode = 500
   // eslint-disable-next-line prefer-const
   let message = 'Something went wrong'

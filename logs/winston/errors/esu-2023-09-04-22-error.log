@@ -1,0 +1,17 @@
+{
+  level: 'error',
+  message: 'gobleErrorhandeler x is not defined',
+  stack: 'ReferenceError: x is not defined\n' +
+    '    at C:\\Next-level-webdev\\univercity-mengement\\src\\app.ts:23:15\n' +
+    '    at Layer.handle [as handle_request] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at urlencodedParser (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\body-parser\\lib\\types\\urlencoded.js:91:7)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-04T16:53:56.522Z'
+}
