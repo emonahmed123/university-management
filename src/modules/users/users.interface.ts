@@ -1,11 +1,11 @@
-import { Model } from 'mongoose'
+import { Model } from 'mongoose';
 
 export type IUser = {
-  id: string
-  role: string
-  password: string
-}
+  id: string;
+  role: string;
+  password: string;
+};
 
-type UserModel = Model<IUser, Record<string, unknown>>
+type UserModel = Model<IUser, Record<string, unknown>>;
 
-export default UserModel
+export default UserModel;

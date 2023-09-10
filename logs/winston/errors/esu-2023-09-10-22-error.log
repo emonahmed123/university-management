@@ -1,0 +1,467 @@
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:11:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:05:47.581Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'number',
+      path: [ 'body', 'password' ],
+      message: 'Expected string, received number'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "number",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ],\n' +
+    '    "message": "Expected string, received number"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "number",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ],\n' +
+    '    "message": "Expected string, received number"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:06:07.755Z'
+}
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:11:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:07:26.965Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'number',
+      path: [ 'body', 'password' ],
+      message: 'Expected string, received number'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "number",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ],\n' +
+    '    "message": "Expected string, received number"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "number",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ],\n' +
+    '    "message": "Expected string, received number"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:07:42.320Z'
+}
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:11:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:07:57.216Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '\r\n' +
+    ' {\r\n' +
+    '    "id":00006,\r\n' +
+    '     "role":"stduent",\r\n' +
+    '     "password":"12345"\r\n' +
+    '}\r\n',
+  type: 'entity.parse.failed',
+  level: 'error',
+  message: 'gobleErrorhandeler Unexpected number in JSON at position 16',
+  stack: 'SyntaxError: Unexpected number in JSON at position 16\n' +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+    '    at C:\\Next-level-webdev\\univercity-mengement\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n' +
+    '    at invokeCallback (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:513:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1359:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:08:36.804Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '\r\n {\r\n    "id":0006,\r\n     "role":"stduent",\r\n     "password":"12345"\r\n}\r\n',
+  type: 'entity.parse.failed',
+  level: 'error',
+  message: 'gobleErrorhandeler Unexpected number in JSON at position 16',
+  stack: 'SyntaxError: Unexpected number in JSON at position 16\n' +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+    '    at C:\\Next-level-webdev\\univercity-mengement\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n' +
+    '    at invokeCallback (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:513:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1359:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:08:48.552Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '\r\n {\r\n    "id":006,\r\n     "role":"stduent",\r\n     "password":"12345"\r\n}\r\n',
+  type: 'entity.parse.failed',
+  level: 'error',
+  message: 'gobleErrorhandeler Unexpected number in JSON at position 16',
+  stack: 'SyntaxError: Unexpected number in JSON at position 16\n' +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+    '    at C:\\Next-level-webdev\\univercity-mengement\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n' +
+    '    at invokeCallback (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:513:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1359:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:08:54.165Z'
+}
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:11:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:09:00.561Z'
+}
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:11:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:14:36.950Z'
+}
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:11:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:15:40.011Z'
+}
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:13:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:16:34.562Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required '
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:19:56.388Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required '
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:22:04.822Z'
+}
+{
+  level: 'error',
+  message: "gobleErrorhandeler Cannot set properties of undefined (setting 'id')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'id')\n" +
+    '    at Object.<anonymous> (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:13:10)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Next-level-webdev\\univercity-mengement\\src\\modules\\users\\user.service.ts:4:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:23:53.280Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required '
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:24:48.530Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required '
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:25:19.967Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required '
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required "\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T16:25:21.211Z'
+}
