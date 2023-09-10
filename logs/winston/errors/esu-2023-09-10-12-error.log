@@ -1,0 +1,462 @@
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:48:07.537Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:51:36.489Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:52:30.002Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:52:45.212Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:52:49.006Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:52:52.467Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:52:53.538Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:52:54.380Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:53:39.435Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:55:24.197Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'array',
+      path: [ 'body' ],
+      message: 'Expected object, received array'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "array",\n' +
+    '    "path": [\n' +
+    '      "body"\n' +
+    '    ],\n' +
+    '    "message": "Expected object, received array"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-10T06:55:26.735Z'
+}
