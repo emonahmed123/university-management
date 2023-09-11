@@ -74,6 +74,21 @@
             "date": 1694361947588,
             "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\errors\\esu-2023-09-10-22-error.log",
             "hash": "86708e0a732f33ed2d60dd98a8fc2f19ac0cafb7474b52ddfdfd55bacacddda7"
+        },
+        {
+            "date": 1694401034530,
+            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\errors\\esu-2023-09-11-08-error.log",
+            "hash": "16f0a93015da095163e50dc412cbcae133174cffd3a7228f59dc280174d23f14"
+        },
+        {
+            "date": 1694401993176,
+            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\errors\\esu-2023-09-11-09-error.log",
+            "hash": "eb70b89a48227d8ebadfa9a960a8262b3b1eeec7d49dfe508644488657e255d3"
+        },
+        {
+            "date": 1694408514338,
+            "name": "C:\\Next-level-webdev\\univercity-mengement\\logs\\winston\\errors\\esu-2023-09-11-11-error.log",
+            "hash": "87f41730c0a01f7abac1e23b2612dc17ec87a792bdde189006f254ceabf4ebdd"
         }
     ],
     "hashType": "sha256"

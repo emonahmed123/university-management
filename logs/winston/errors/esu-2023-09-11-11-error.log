@@ -1,0 +1,255 @@
+{
+  issues: [
+    {
+      expected: "'Autumn' | 'summer' | 'Fail'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'title' ],
+      message: 'Title is required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'undefined',
+      path: [ 'body', 'year' ],
+      message: 'Year is required '
+    },
+    {
+      expected: "'01' | '02' | '03'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'code' ],
+      message: 'Required'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'startMonth' ],
+      message: 'StartMonth is requireed'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'endtMonth' ],
+      message: 'EndMonth is requireed'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    `    "expected": "'Autumn' | 'summer' | 'Fail'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    '    "message": "Title is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "number",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is required "\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'01' | '02' | '03'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "code"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "StartMonth is requireed"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endtMonth"\n' +
+    '    ],\n' +
+    '    "message": "EndMonth is requireed"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    `    "expected": "'Autumn' | 'summer' | 'Fail'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    '    "message": "Title is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "number",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is required "\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'01' | '02' | '03'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "code"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "StartMonth is requireed"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endtMonth"\n' +
+    '    ],\n' +
+    '    "message": "EndMonth is requireed"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-11T05:06:28.891Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'string',
+      path: [ 'body', 'year' ],
+      message: 'Expected number, received string'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'endtMonth' ],
+      message: 'EndMonth is requireed'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'gobleErrorhandeler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "number",\n' +
+    '    "received": "string",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Expected number, received string"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endtMonth"\n' +
+    '    ],\n' +
+    '    "message": "EndMonth is requireed"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "number",\n' +
+    '    "received": "string",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Expected number, received string"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endtMonth"\n' +
+    '    ],\n' +
+    '    "message": "EndMonth is requireed"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'ES',
+  timestamp: '2023-09-11T05:10:58.113Z'
+}
+{
+  errors: {
+    endMonth: ValidatorError: Path `endMonth` is required.
+        at validate (C:\Next-level-webdev\univercity-mengement\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\Next-level-webdev\univercity-mengement\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\Next-level-webdev\univercity-mengement\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `endMonth` is required.',
+        type: 'required',
+        path: 'endMonth',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'endMonth',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'AcademicSemester validation failed',
+  level: 'error',
+  message: 'gobleErrorhandeler AcademicSemester validation failed: endMonth: Path `endMonth` is required.',
+  stack: 'ValidationError: AcademicSemester validation failed: endMonth: Path `endMonth` is required.\n' +
+    '    at model.Document.invalidate (C:\\Next-level-webdev\\univercity-mengement\\node_modules\\mongoose\\lib\\document.js:3147:32)\n' +
+    '    at C:\\Next-level-webdev\\univercity-mengement\\node_modules\\mongoose\\lib\\document.js:2940:17\n' +
+    '    at C:\\Next-level-webdev\\univercity-mengement\\node_modules\\mongoose\\lib\\schematype.js:1352:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'ES',
+  timestamp: '2023-09-11T05:12:38.716Z'
+}
